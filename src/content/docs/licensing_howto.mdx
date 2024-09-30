@@ -1,0 +1,47 @@
+---
+title: Choose a license
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Prerequisites
+
+Figure out whether you are restricted in choosing the terms for publishing the
+software
+
+### 1. Has the funding agency imposed restrictions?
+
+Check the *notification of funding* for the project.
+
+<CardGrid>
+  <Card title="YES" style="color:green;" icon="approve-check">
+    Continue to point 2.<br />
+    **But keep these restrictions in mind.**
+  </Card>
+  <Card title="NO" icon="close">
+    Continue to point 2
+  </Card>
+</CardGrid>
+
+**YES** -> Continue to point 2. below: "Have all contributors to the software agreed that you publish it as Open Source?"
+
+
+**NO** -> Continue to point 2. below: "Have all contributors to the software agreed that you publish it as Open Source?"
+
+**2. Have all contributors to the software agreed that you publish it as Open Source?**
+
+Preferably get the agreement in writing. An elegant way to do that, if you develop on a repository hosting platform such as GitLab or GitHub, is to require new contributors to add their name to the agreement-document with their first merge request.
+
+**YES** -> Continue to point 3. below: "Do you use third-party code as part of your program?"
+**NO**&nbsp; ->  Talk to them and get their agreement!
+
+**3. Do you use third-party code as part of your program?**
+
+**YES** -> [Check for complications!](/Guide-to-Research-Software-Licensing/complicati
+**NO** -> Continue to section  "Choose and apply the license" below!
+
+### Choose and apply the license
+
+**The service unit RDM recommends to use the Affero GNU General Public License Version 3 (AGPL v3)**.
+
+This strong Copyleft license is the most compatible Open Source license and can be applied to most programs that incorporate third-party code under Open Source licenses. The AGPL v3 fosters, more than any other license, the sustainable availability of the source code of your work as well as that of future derivatives, improvements and adaptions. Therefore it is best suited to support Open Science, reproducibility and transparency.

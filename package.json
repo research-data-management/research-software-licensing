@@ -13,6 +13,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@astrojs/starlight": "^0.28.2",
     "astro": "^4.15.9"
   }
 }
