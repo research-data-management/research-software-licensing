@@ -1,0 +1,69 @@
+---
+title: Copyleft licenses
+---
+
+import { Image } from 'astro:assets';
+import gnu from '../../../assets/gnu.jpg';
+
+<Image src={gnu} alt="GNU logo" width="200px"/>
+Copyleft" licenses usually refer to the family of *GNU Licenses* published by the [Free Software Foundation](https://www.fsf.org/). The recommended version for researchers is the [GNU Affero General Public License (AGPL) v3](https://www.gnu.org/licenses/#AGPL). These licenses aim to guarantee that the licensed software is and remains **Free** in the sense that ["users have the freedom to **run**, **copy**, **distribute**, **study**, **change and improve** the software"](https://www.gnu.org/philosophy/free-sw.html). The GNU/Linux operating system (commonly called "Linux") is Free Software.
+
+The AGPL is an adaption of the better known [GPLv3](https://www.gnu.org/licenses/quick-guide-gplv3.html) to carry the essential idea of *Copyleft* into more recent scenarios, where a lot of software is mainly run on servers and used by remote clients. See [Why the Affero GPL](https://www.gnu.org/licenses/why-affero-gpl.html).
+
+## Advantages
+
++ Compatible with reproducibility and transparency requirements of good scientific practice.
++ Legal requirement to credit the original author in the form of a retained copyright statement.
++ The most compatible license among Open Source licenses: It can be used for programs that incorporate third-party code obtained under the vast majority of existing Open Source licenses.
++ Reciprocity requirement: All improved versions and derived works can only be distributed under the same license, thus forcing companies who profit from your code to give back their additions and improvements to the community.
++ Ensures that future improvements, changes and derived versions of the software remain Open Source so that the scientific community and the general public continue to profit from it. 
+
+## Disadvantages
+
++ The "reciprocal" nature of the license makes it more difficult to exploit such code commercially. If the code is supposed to be used commercially in the future, for example forming an asset of a spin-off, or if the code is created within a collaboration with the private sector, please consult all stakeholders before publishing it under a copyleft license (or any license for that matter).
+
++ Code under a *Copyleft* license can't easily be incorporated into another software that is licensed under a [permissive license](https://git-int.thuenen.de/rdm/info/-/wikis/Guide-to-Research-Software-Licensing/Permissive-License), in particular if that is a large project with many contributors. If a lot of software in your community is permissively licensed, consider to also use a [permissive license](https://git-int.thuenen.de/rdm/info/-/wikis/Guide-to-Research-Software-Licensing/Permissive-License).
+
+## How to apply the AGPL v3 (GPL v3)
+
+1. Download the [GNU AGPL v3 license
+text](https://www.gnu.org/licenses/agpl-3.0.txt) ()[GPL v3 license
+text](https://www.gnu.org/licenses/gpl-3.0.txt))and place it in a file named
+`COPYING` in the top directory of your software distribution.
+
+2. Include a copyright-note in your codebase. There are two ways to do that:
+
+   2.1 Include the copyright notice as explained below at the top of each file in the appropriate comment syntax.
+
+   2.2 Write the copyright notice as explained below into a file called `COPYRIGHT` in the top directory of your software distribution.
+
+The first variant is regarded as "more secure" by some people, but the second variant is much more convenient and doesn't make a difference from a legal point of view. The first variant might be necessary if there are differences between files with regard to copyright. 
+
+**Copyright-notice**:
+
+Replace \<YEAR\>, \<EMPLOYER(s)\>, \<AUTHOR NAME(S)\>, \<AUTHOR E-MAIL ADDRESS(ES)\> with the actual values,
+   e.g.     
+"Copyright © 2023, Thuenen Institute, Birgit Blühstreifen, Marcel Moorboden, m.moorboden\@thuenen.de".
+
+Note that next to the creators of the software you should also mention your
+employer(s), if this work is relate to your employment.
+	
+  ```
+ Copyright © <YEAR>, <EMPLOYER(s) if applicable>, <AUTHOR NAME(S)>, <AUTHOR E-MAIL ADDRESS(ES)>
+
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU Affero General Public License as
+   published by the Free Software Foundation, either version 3 of the
+   License, or (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful, but
+   WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+   Affero General Public License for more details.
+
+   You should have received a copy of the GNU Affero General Public
+   License along with this program.  If not, see
+   <https://www.gnu.org/licenses/>.
+```
+    			
+

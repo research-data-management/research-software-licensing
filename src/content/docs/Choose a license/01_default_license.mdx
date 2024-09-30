@@ -1,0 +1,80 @@
+---
+title: Default license
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+import { LinkButton } from '@astrojs/starlight/components';
+import { Icon } from '@astrojs/starlight/components';
+import { Image } from 'astro:assets';
+import agpl from '../../../assets/AGPLv3_Logo.png';
+import mit from '../../../assets/MIT_logo.png';
+import cc0 from '../../../assets/CC-Zero-badge.svg';
+
+
+
+### If in doubt, use the AGPLv3
+
+The **GNU Affero General Public License** Version 3 (AGPL v3) is a very good
+choice for research software. This strong Copyleft license can be applied to
+most programs that incorporate third-party code under Open Source licenses (see
+Figure 1). The AGPL v3 fosters, more than any other license, the sustainable
+availability of the source code of your work as well as that of future
+derivatives, improvements and adaptions. Therefore it is best suited to support
+Open Science, reproducibility and transparency.
+
+![Graph showing the compatibility-relationships between selected Open Source
+ licenses](../../../assets/floss-license-slide-image.png) <span
+ style="font-size:var(--sl-text-base)">**Figure 1**: Graph showing the
+ compatibility-relationships between selected Open Source licenses. For details,
+ see [Wheeler, 2017](https://dwheeler.com/essays/floss-license-slide.html).
+ Figure obtained ibid. under the [Creative Commons “Attribution-Share Alike 3.0
+ License](https://creativecommons.org/licenses/by-sa/3.0/)</span>
+
+### Types of Open Source licenses
+
+There are three broad categories of Open Source license type that can be applied
+to research software. The AGPLv3 is an example for a **"Copyleft license"**. This type
+of license ensures that a program is free software and requires all modified and
+extended versions of the program to be free software as well. Other types of
+licenses suited for research software are **"permissive licenses"** and a **"copyright
+waiver"** that places your work in the public domain.
+
+**Explore the different license types and see how to to apply them to your code:**
+
+<ul class="nobullets">
+  <li>
+    <LinkButton href="/choose-a-license/02_copyleft" icon="external" variant='secondary'>
+    <Image src={agpl} width="100%" alt="AGPLv3 Logo"/>
+    Copyleft licenses
+   </LinkButton>
+  </li>
+
+  <li>
+    <LinkButton href="/choose-a-license/03_permissive" icon="external" variant='secondary'>
+    <Image src={mit} width="100%" alt="MIT Logo"/>
+    Permissive licenses
+   </LinkButton>
+  </li>
+
+  <li>
+    <LinkButton href="/choose-a-license/04_public_domain" icon="external" variant='secondary'>
+    <Image src={cc0} width="130%" alt="AGPLv3 Logo"/>
+      Public Domain
+    </LinkButton>
+  </li>
+
+  <li>
+    <LinkButton href="/choose-a-license/05_proprietary" icon="external" variant='secondary'>
+    <Icon name="warning" size="300%" color="red" />
+    Proprietary licenses
+   </LinkButton>
+  </li>
+
+  <li>
+    <LinkButton href="/choose-a-license/06_unpublished" icon="external" variant='secondary'>
+    <Icon name="warning" size="300%" color="red" />
+    Unpublished software
+   </LinkButton>
+  </li>
+
+</ul>

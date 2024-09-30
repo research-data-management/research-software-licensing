@@ -40,3 +40,45 @@
 
 # + **Q**: What about development-versions of CRAN packages on GitHub?
 # + **A**: **Usually no problem. Just follow the guidance above**.
+
+
+
+
+
+// # <p><strong>Check the *notification of funding* for the project!</strong></p>
+
+
+// # YES - Continue to point 2. below: "Have all contributors to the software agreed that you publish it as Open Source?"
+
+// # NO  Continue to point 2. below: "Have all contributors to the software agreed that you publish it as Open Source?"
+// # </item>
+
+// # **
+
+// #    Preferably get the agreement in writing. An elegant way to do that, if you develop on a repository hosting platform such as GitLab or GitHub, is to require new contributors to add their name to the agreement-document with their first merge request.
+
+// #    **YES** -> Continue to point 3. below: "Do you use third-party code as part of your program?"
+// #    **NO**&nbsp; ->  Talk to them and get their agreement!
+// # </item>
+
+
+// #    **YES** -> [Check for complications!](/Guide-to-Research-Software-Licensing/complicati
+// #    **NO** -> Continue to section  "Choose and apply the license" below!
+// # </item>
+// # <item>Choose and apply the license
+// # The service unit RDM recommends to use the Affero GNU General Public License Version 3 (AGPL v3)**.
+
+// #    This strong Copyleft license is the most compatible Open Source license and can be applied to most programs that incorporate third-party code under Open Source licenses. The AGPL v3 fosters, more than any other license, the sustainable availability of the source code of your work as well as that of future derivatives, improvements and adaptions. Therefore it is best suited to support Open Science, reproducibility and transparency.
+// # </item>
+// # </ol>
+// # </Steps>
+
+// #  <CardGrid>
+// #   <Card title="✅ YES" class:list={['yescard']}>
+// #       Continue to point 2.<br />
+// #     **But keep these restrictions in mind.**
+// #   </Card>
+// #   <Card title="❌ NO">
+// #     Continue to point 2
+// #   </Card>
+// #   </CardGrid>

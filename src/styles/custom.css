@@ -1,0 +1,16 @@
+p,li{
+    font-size: var(--sl-text-xl);
+}
+
+article.card > p.title > span  {
+    font-size: 200%;
+}
+
+ul.nobullets > li {
+    list-style: none;
+}
+
+img.inlineimg, svg.inlineimg {
+    display: inline;
+    vertical-align: middle;
+}
