@@ -3,6 +3,7 @@ title: Default license
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Aside } from '@astrojs/starlight/components';
 import { LinkButton } from '@astrojs/starlight/components';
 import { Icon } from '@astrojs/starlight/components';
 import { Image } from 'astro:assets';
@@ -12,7 +13,7 @@ import cc0 from '../../../assets/CC-Zero-badge.svg';
 
 
 
-### If in doubt, use the AGPLv3
+### If in doubt, use the AGPLv3 🚀
 
 The **GNU Affero General Public License** Version 3 (AGPL v3) is a very good
 choice for research software. This strong Copyleft license can be applied to
@@ -30,6 +31,13 @@ Open Science, reproducibility and transparency.
  Figure obtained ibid. under the [Creative Commons “Attribution-Share Alike 3.0
  License](https://creativecommons.org/licenses/by-sa/3.0/)</span>
 
+<Aside type="caution">
+  <p>Situations where you might not want to use the AGPL include
+  cooperation-projects with private companies or when most of the code in your
+  field is licensed under a <a href="../03_permissive">permissive
+  license</a></p>
+</Aside>
+
 ### Types of Open Source licenses
 
 There are three broad categories of Open Source license type that can be applied
@@ -43,35 +51,35 @@ waiver"** that places your work in the public domain.
 
 <ul class="nobullets">
   <li>
-    <LinkButton href="/choose-a-license/02_copyleft" icon="external" variant='secondary'>
+    <LinkButton href="../02_copyleft" icon="external" variant='secondary'>
     <Image src={agpl} width="100%" alt="AGPLv3 Logo"/>
     Copyleft licenses
    </LinkButton>
   </li>
 
   <li>
-    <LinkButton href="/choose-a-license/03_permissive" icon="external" variant='secondary'>
+    <LinkButton href="../03_permissive" icon="external" variant='secondary'>
     <Image src={mit} width="100%" alt="MIT Logo"/>
     Permissive licenses
    </LinkButton>
   </li>
 
   <li>
-    <LinkButton href="/choose-a-license/04_public_domain" icon="external" variant='secondary'>
-    <Image src={cc0} width="130%" alt="AGPLv3 Logo"/>
+    <LinkButton href="../04_public_domain" icon="external" variant='secondary'>
+    <Image src={cc0} width="130%" alt="CC0 logo"/>
       Public Domain
     </LinkButton>
   </li>
 
   <li>
-    <LinkButton href="/choose-a-license/05_proprietary" icon="external" variant='secondary'>
+    <LinkButton href="../05_proprietary" icon="external" variant='secondary'>
     <Icon name="warning" size="300%" color="red" />
     Proprietary licenses
    </LinkButton>
   </li>
 
   <li>
-    <LinkButton href="/choose-a-license/06_unpublished" icon="external" variant='secondary'>
+    <LinkButton href="../06_unpublished" icon="external" variant='secondary'>
     <Icon name="warning" size="300%" color="red" />
     Unpublished software
    </LinkButton>

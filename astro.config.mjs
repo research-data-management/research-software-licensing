@@ -8,8 +8,16 @@ export default defineConfig({
     starlight({
       title: "Research software licensing guide",
       customCss: [
-        './src/styles/custom.css',
+        './src/styles/custom.css'
       ],
+      sidebar: [
+        { label:"This guide", link: "/"},
+        { slug: "check_prerequisites"},
+        { slug: "complications"},
+        { label: "Choose a license",
+          autogenerate: { directory: "choose_a_license" }
+        }
+      ]
     }),
   ],
 });
