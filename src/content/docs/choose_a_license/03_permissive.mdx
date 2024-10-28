@@ -2,7 +2,7 @@
 title: Permissive licenses
 ---
 
-import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Tabs, TabItem, Aside} from '@astrojs/starlight/components';
 import { Icon } from '@astrojs/starlight/components';
 import { Image } from 'astro:assets';
 import mit from '../../../assets/MIT_logo.png';
@@ -16,7 +16,7 @@ Public Domain, when applied to research software, is the legal requirement to
 give the original creator of the software credit in the form of a retained
 copyright statement when the software or derived works are re-distributed.
 
-## Advantages
+## 🚀 Advantages
 
 + Excellent ease of re-use. Your software can be combined with any code
   published under a common free-software license to create added value.
@@ -24,7 +24,7 @@ copyright statement when the software or derived works are re-distributed.
   scientific practice.
 + Legal requirement to credit the original author
 
-## Drawbacks
+## ‼️Drawbacks
 
 + The software will be available for use you might consider freeloading, because
   it can easily be re-packaged, renamed, re-licensed and sold ...
@@ -49,17 +49,22 @@ There are a large number of licenses in this category but the two most popular o
 patents that the software may incorporate. This is mainly interesting for
 commercial use of the software, where it reduces the business risk.
 
-## How to apply
+## 📝 How to apply
 
 <Tabs>
+
   <TabItem label="MIT License (Expat License)">
+
 Include the following notice at the top of each file in the appropriate comment
 syntax. Replace \<YEAR\>, \<AUTHOR NAME(S)\>, \<AUTHOR E-MAIL ADDRESS(ES)\> with
-the actual values, e.g. "Copyright © 2023, Thuenen Institute, Birgit
-Blühstreifen, Marcel Moorboden, m.moorboden\@thuenen.de"
+the actual values, e.g. ”Copyright © 2024, Institute for Reproducible Research, Birgit Blühstreifen, Marcel Moorboden, m.moorboden@repro-resear.ch”.
+
+<Aside type="tip">
+          <p>Alternatively, you might just put this notice into a file called `LICENSE.txt` at the root of your software distribution</p>
+</Aside>
 
 ~~~
-Copyright © <YEAR>, Thuenen Institute, <AUTHOR NAME(S)>, <AUTHOR E-MAIL ADDRESS(ES)>
+Copyright © <YEAR>, Institute for Reproducible Research, <AUTHOR NAME(S)>, <AUTHOR E-MAIL ADDRESS(ES)>
 
 [other author/contributor lines as appropriate]
 
@@ -82,15 +87,19 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ~~~
+
   </TabItem>
   <TabItem label="Apache 2.0 License">
-Include the following notice at the top of each file in the appropriate comment
-syntax. Replace \<YEAR\>, \<AUTHOR NAME(S)\>, \<AUTHOR E-MAIL ADDRESS(ES)\> with
-the actual values, e.g. "Copyright ©, 2023, Thuenen Institute, Birgit
-Blühstreifen, Marcel Moorboden, m.moorboden@thuenen.de"
+
+<ol>
+  <li>Include the following notice at the top of each file in the appropriate
+comment syntax. Replace `<YEAR>`, `<INSTITUTION>`, `<AUTHOR NAME(S)>`,
+`<AUTHOR E-MAIL ADDRESS(ES)>` with the actual values, e.g. ”Copyright © 2024,
+Institute for Reproducible Research, Birgit Blühstreifen, Marcel Moorboden,
+m.moorboden@repro-resear.ch”</li>
 
 ~~~
-opyright ©, <YEAR>, Thuenen Institute, <AUTHOR NAME(S)>, <AUTHOR E-MAIL ADDRESS(ES)>
+Copyright © <YEAR>, <INSTITUTION>, <AUTHOR NAME(S)>, <AUTHOR E-MAIL ADDRESS(ES)>
 
 [other author/contributor lines as appropriate]
 
@@ -107,9 +116,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ~~~
 
-Include a file called `COPYING containing the Apache
-2.0 legalcode as plain text in
-root directory of the distribution.
+  <li>Include a file called `LICENSE.txt` containing the [Apache 2.0
+  legalcode](https://www.apache.org/licenses/LICENSE-2.0.txt) as plain text in
+  root directory of the distribution.</li>
+</ol>
 
   </TabItem>
 </Tabs>
