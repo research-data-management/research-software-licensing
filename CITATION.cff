@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: Research Software Licensing Guide
+abstract: Publish your scripts & software with the correct incantation to make it re-usable.
+message: Cite this guide using the metadata from this file.
+authors:
+  - family-names: Waldow
+    given-names: Harald
+    name-particle: von
+    orcid: "https://orcid.org/0000-0003-4800-2833"
+    affiliation: "Johann Heinrich von Thünen-Institut, Braunschweig, DE"
+url: "https://w3id.org/rdm/rslg/"
+version: 1.0.0
+date-released: "2024-10-28"
+identifiers:
+  - description: Concept DOI
+    type: doi
+    value: "10.5281/zenodo.14002402"
+  - description: The w3id.org - ID
+    type: url
+    value: "https://w3id.org/rdm/rslg/"
+license: "CC-BY-SA-4.0"
+repository-code: "https://github.com/research-data-management/research-software-licensing"
