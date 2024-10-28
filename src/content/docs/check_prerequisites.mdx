@@ -7,14 +7,22 @@ import { Icon } from '@astrojs/starlight/components';
 import { Badge } from '@astrojs/starlight/components';
 import { Steps } from '@astrojs/starlight/components';
 import { LinkButton } from '@astrojs/starlight/components';
+import { Image } from 'astro:assets';
+import chemistrySetup from '../../assets/chemistry.jpg';
 
+<Image src={chemistrySetup}
+       width="350"
+       alt="historical tools for alchemy, Le Fèvre, Nicaise, 1664"
+       style="float:right;margin-left:10px;margin-bottom:60px;" />
 
-Figure out whether you are restricted in choosing the terms for publishing the
-software
+<p>
+  Figure out whether you are restricted in choosing the terms for publishing the
+  software.
+</p>
 
 <Steps>
 
-<ol>
+<ol style="clear:right;">
 
 <li>
 <h3>Has the funding agency imposed restrictions?</h3>
@@ -58,7 +66,7 @@ merge request.
     <LinkButton href="../complications">**Check for complications!**</LinkButton>
   </Card>
   <Card title="✅ NO">
-    <LinkButton href="../choose-a-license/01_default_license" variant="secondary">**Choose a license!**</LinkButton>
+    <LinkButton href="../choose_a_license/01_default_license" variant="secondary">**Choose a license!**</LinkButton>
   </Card>
 </CardGrid>
 </li>
