@@ -18,7 +18,11 @@ export default defineConfig({
           autogenerate: { directory: "choose_a_license" }
         },
         { slug: "faq" }
-      ]
+      ],
+      social: {
+        github: 'https://github.com/research-data-management/research-software-licensing'
+      },
+      lastUpdated: true
     }),
   ],
 });
