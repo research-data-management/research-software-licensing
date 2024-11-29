@@ -16,7 +16,8 @@ export default defineConfig({
         { slug: "complications"},
         { label: "Choose a license",
           autogenerate: { directory: "choose_a_license" }
-        }
+        },
+        { slug: "faq" }
       ]
     }),
   ],
