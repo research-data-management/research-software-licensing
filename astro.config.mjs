@@ -22,6 +22,10 @@ export default defineConfig({
       social: {
         github: 'https://github.com/research-data-management/research-software-licensing'
       },
+      components: {
+        // Override the default `Footer` component.
+        Footer: './src/components/MyFooter.astro',
+      },
       lastUpdated: true
     }),
   ],
