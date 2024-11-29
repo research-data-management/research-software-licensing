@@ -3,10 +3,19 @@ title: FAQ
 ---
 
 import { Aside } from '@astrojs/starlight/components';
+import { Image  } from 'astro:assets';
+import questionpic from '../../assets/questions.jpg'
 
-<Aside type="note"> We collect questions and answers to common questions around
-software licensing issues. If you have a question that you think might be of
-interest to other people as well, please let us know.</Aside>
+<article>
+ <Image style="float:right;margin-left:10px;" src={questionpic} class="img-top"
+        alt="Opusculum perutile de cognitione animae et ejus potentiis / Augustini de Anchona cum quadam questione Prosperi de Regio; Wellcome Collection; public domain" />
+
+
+*We collect answers to questions around
+open source software licensing issues. If you have a question that you think might be of
+interest to other people as well, please [let us know](https://github.com/research-data-management/research-software-licensing/issues).*
+
+ <div style="clear:right;"></div>
 
 ### StackOverflow
 
@@ -44,3 +53,5 @@ the respective service.
 
 + **Q**: What about development-versions of CRAN packages on GitHub?
 + **A**: Usually no problem. Just follow the guidance above.
+
+</article>
